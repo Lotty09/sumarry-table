@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h1>Registration Form</h1>
+  
+  <form id="registrationForm">
+    <label for="fullName">Full Name:</label><br>
+    <input type="text" id="fullName" name="fullName" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <label>Favorite Subjects:</label><br>
+    <input type="checkbox" id="math" name="subjects" value="Math">
+    <label for="math">Math</label><br>
+    <input type="checkbox" id="science" name="subjects" value="Science">
+    <label for="science">Science</label><br>
+    <input type="checkbox" id="history" name="subjects" value="History">
+    <label for="history">History</label><br><br>
+
+    <label for="country">Country:</label><br>
+    <select id="country" name="country" required>
+      <option value="USA">USA</option>
+      <option value="Canada">Canada</option>
+      <option value="UK">UK</option>
+    </select><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>Summary </h2>
+    Full Name<br/>
+    Email Address<br/>
+    Date of Birth<br/>
+    Gender<br/>
+    Favorite Subjects<br/>
+    Country<br/>
+    </body>
+</html>
